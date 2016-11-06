@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<themeeditor>
+	<author>leotheme</author>
+	<name>Live Theme Editor</name>
+	<configs>
+		<item>
+			<block>sidebarmenu</block>
+			<title>Sidebar Menu</title>
+			<default>sidebar-hide</default>
+			<option>
+				<name>hide</name>
+				<id>sidebar-hide</id>
+			</option>
+			<option>
+				<name>close</name>
+				<id>sidebar-close</id>
+			</option>
+			<option>
+				<name>show</name>
+				<id>sidebar-show</id>
+			</option>
+		</item>
+	</configs>
+</themeeditor>

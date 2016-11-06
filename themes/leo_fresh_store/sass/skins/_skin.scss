@@ -1,0 +1,502 @@
+ 
+//base
+a{
+    color: $text-color;
+    &:hover,
+    &:focus {
+        color: $link-hover-color;
+    }
+}
+
+.btn-default{
+	border-color:$theme-color-default;
+	&:hover{
+		border-color:$theme-color-default;
+	} 
+}
+// menu
+
+
+
+// form
+.btn-outline-inverse{
+  @include button-variant-outline($white, $theme-color-default, $theme-color-default, $text-color, $nocolor , $border-color );
+} 
+.btn-outline{
+  @include button-variant-outline($text-color, $nocolor , $border-color , $white, $theme-color-default, $theme-color-default );
+}
+
+
+//block
+.sidebar{
+   .#{$block-selector} {
+        &.highlighted{
+                .title_block{
+                     background: $theme-color-secondary;
+                }
+            }
+        .#{$block-heading-selector}{
+            background:$block-heading-bg;  
+         }
+    }
+
+// Contextual variations
+.#{$block-prefix}-default {
+  @include block-variant($panel-default-border, $panel-default-text, $panel-default-heading-bg, $panel-default-border);
+}
+.#{$block-prefix}-primary {
+  @include block-variant($panel-primary-border, $panel-primary-text, $panel-primary-heading-bg, $panel-primary-border);
+}
+.#{$block-prefix}-success {
+  @include block-variant($panel-success-border, $panel-success-text, $panel-success-heading-bg, $panel-success-border);
+}
+.#{$block-prefix}-info {
+  @include block-variant($panel-info-border, $panel-info-text, $panel-info-heading-bg, $panel-info-border);
+}
+.#{$block-prefix}-warning {
+  @include block-variant($panel-warning-border, $panel-warning-text, $panel-warning-heading-bg, $panel-warning-border);
+}
+.#{$block-prefix}-danger {
+  @include block-variant($panel-danger-border, $panel-danger-text, $panel-danger-heading-bg, $panel-danger-border);
+}
+
+
+// block-variant($border, $heading-text-color, $heading-bg-color, $heading-border)
+.#{$block-prefix}-highlighted {
+   // @include block-variant($block-module-highlighted-border, $white, $block-module-highlighted-bg, $block-module-highlighted-bg);
+}
+}
+.#{$block-content-selector}{
+    .carousel-control{
+        color: $text-color;
+        &:hover,&:active,&:focus,&.active{
+            &:before{
+              color: $link-hover-color;
+            }
+        }
+    }
+}
+
+
+
+
+
+##{$app-brand-prefix}-mainnav {
+    background: $mainnav-outside-bg;
+    border-top: $mainnav-outside-border;
+    border-bottom: $mainnav-outside-border;
+    .container > .inner{
+       // @include container-layout-variant($mainnav-color, $mainnav-bg, $mainnav-color, $mainnav-color-hover);   
+        
+   }
+}
+
+
+
+ul.step{
+    li{
+        &.step_current{
+          background: $theme-color-default;
+        }
+    }
+}
+//step 5 - paiement
+p.payment_module {
+    a{
+    	&:hover {
+	      border-color: $theme-color-default;
+	    }
+    }
+}
+//Subacategory
+.subcategories{
+  .content{
+    &:hover{
+      background:$bg-color;
+      }
+    }
+}
+
+
+
+.footer-top{
+    background: $footer-top-outside-bg;
+    border-bottom: $footer-top-outside-border;
+    .container > .inner{
+      //  @include container-layout-variant($footer-top-color, $footer-top-bg, $footer-top-color, $footer-top-color-hover ); 
+        
+    }
+   
+}
+.footer-center{
+    background: $footer-center-outside-bg;
+    border-bottom: $footer-center-outside-border;
+   .container > .inner{
+   // @include container-layout-variant($footer-center-color, $footer-center-bg, $footer-center-color, $footer-center-color-hover );   
+    
+   }
+   .#{$block-heading-selector}{
+   	background-color: $footer-heading-bg;
+   }
+}   
+.footer-bottom{
+   // background: $footer-bottom-outside-bg;
+   .container > .inner{
+    //@include container-layout-variant($footer-bottom-color, $footer-bottom-bg, $footer-bottom-color, $footer-bottom-color-hover );   
+    
+   }
+}
+
+.footer-nav{ // copyright
+    background: $footer-nav-outside-bg;
+   .container > .inner{
+   // @include container-layout-variant($footer-nav-color, $footer-nav-bg, $footer-nav-color, $footer-nav-color-hover );   
+    
+   }
+}
+//pop up content
+.popup-over{
+    .popup-content{
+        li{
+            &.selected{
+                color: $theme-color-default !important;
+            }
+            a{
+	            &:hover{
+	                color: $link-hover-color !important;
+	            }
+	        }
+        }
+    }
+}  
+
+#my-account {
+	ul.myaccount-link-list {
+		li {
+			a {
+				i {
+					color: $theme-color-default;
+				}
+			}
+		}
+	}
+}
+#footer a:hover{
+  color: $link-hover-color;
+}
+.widget-footer-nav:before{
+  background-color:$bg-color;
+}
+// Tab nav pills
+.block{
+  .nav-pills {
+    > li.active {
+      > a{
+		&,
+		&:hover,
+		&:focus {
+			background-color: $nav-pills-active-link-hover-bg;
+		}
+        &:before{
+          color: $nav-pills-active-link-hover-bg;
+        }
+      }    
+    }
+  }  
+}
+
+//prestashop page
+.content_sortPagiBar .display .selected a{
+  background-color: $bg-color;
+  border-color:$theme-color-default;
+}
+
+
+// BREADCRUMB
+.breadcrumb {
+	color: $breadcrumb-active-color;       
+	a {
+	  &:hover {
+	      color: $breadcrumb-active-color;
+	  }
+	}
+}
+//btn-add to cart
+#header .cart_block .cart-buttons .btn{
+  background-color: $theme-color-default;
+}
+//Cart
+#cart{
+  .heading{
+    background: $theme-color-default;
+     &:before{
+      @include rtl-border-right(18px solid $theme-color-default);  
+    }
+  }
+}
+
+//menu
+div.verticalmenu{		
+	.navbar-nav{						
+		> li{
+			> a{	
+				&:hover,&:focus{
+					.menu-title{
+						color: $vertical-menu-link-hover-color;
+					}					
+					color: $vertical-menu-link-hover-color;
+				}				
+
+			}
+			&:hover{
+				> a{
+					.caret{
+						border-top-color: $theme-color-default;
+					}
+				}					
+			}
+		}
+	}
+  ul{
+    li{
+      a{
+        &:hover,&:focus{
+          .menu-title{
+            color: $vertical-menu-link-hover-color;
+          }         
+          color: $vertical-menu-link-hover-color;
+        }
+      }
+    }
+  } 
+}
+.ajax_block_product{
+    .product-container{
+        border: $main-border;
+        &:hover{
+            border: 1px solid $theme-color-default;
+        }
+    }
+}
+
+.price {        
+    color: $product-price-color;      
+}
+
+
+.leo-more-cdown .title_deal{
+  background-color:$bg-color;
+}
+.leo-more-cdown .deal-clock li{
+  background-color: $theme-color-secondary;
+}
+
+.product-block-style{
+    .btn { 
+        background: $button-addtocart-bg; 
+        border-color: $button-addtocart-border;
+        color: $button-addtocart-hover-color;
+    }
+    &:hover {
+        .image{
+            .product_img_link{
+                img{
+                    border-color:$theme-color-default;
+                }
+            }
+        }
+    }
+}
+.product-container .name a{
+  &:hover{
+    color: $link-hover-color;
+  }
+}
+#back-top a{
+  background:$bg-color;
+}
+#footer #newsletter_block_left form .btn{
+  &:hover{
+    color: $link-hover-color;
+  }
+}
+//Menu
+/* menu level 1 */
+  .navbar-nav{
+    > li {
+      > a{
+        color: $megamenu-link-color;
+        &:hover,&:focus,&:active{         
+          color: $megamenu-link-hover-color!important;        
+        }
+      } 
+      &.active,
+      &:hover{
+        > a{
+          color: $megamenu-link-hover-color!important;
+        }
+      }
+      
+    }     
+  }
+  /* level 2 */
+  .dropdown-menu{         
+      li{
+        a{     
+          &:hover{
+            color: $theme-color-default!important;            
+          }
+        }       
+      }   
+    a{
+      &:hover{
+        color: $theme-color-default!important;
+      }
+    }
+  }
+
+// off canvas menu
+#off-canvas-nav .offcanvas-mainnav{background-color: $theme-color-default;
+  .navbar-nav > li > a{
+    &:hover,&:focus{
+      color: $link-hover-color !important; 
+    }
+  }
+}
+//leo-megamenu
+#leo-megamenu{
+	.btn{
+		background-color: $theme-color-default;
+	}
+}
+
+//header
+#header-main{
+   .container > .inner{
+        @include container-layout-variant($headermain-color, $headermain-bg); 
+   }
+}
+// =============== private css
+
+.carousel-control{
+  background: $theme-color-default!important;
+  &.left{
+    &:after{
+      @include rtl-border-right(9px solid $theme-color-default);
+    }
+  }
+  &.right{
+    &:after{
+      @include rtl-border-left(9px solid $theme-color-default);
+    }
+  }
+  &:hover{
+    &:before{
+      color: $white;
+    }
+    &.left{
+      &:after{
+        @include rtl-border-right(9px solid #2a2a29);
+      }
+    }
+    &.right{
+      &:after{
+         @include rtl-border-left(9px solid #2a2a29);
+      }
+    }
+   
+  }
+}
+
+// Widget HTML
+.widget{
+  .widget-html{
+    .free-ship{
+      color: $theme-color-default;
+    }
+    .price-html{
+      color: #e34c4c;
+    }
+    .box-outer{
+      .reassurances-center {
+        .icon-name{
+          &.fa-truck{
+            color: $theme-color-default;
+          }
+          &.fa-dropbox{
+            color: $theme-color-secondary;
+          }
+        }
+        .description {
+          h4{
+            font-family: $font-family-septenary;
+            color: $white;
+          }
+          .shippingg{
+            color: $theme-color-default;
+          }
+          .gift{
+             color: $theme-color-secondary;
+          }
+        }
+        &:hover{
+          color: $theme-color-default;
+        }
+      }
+    }  
+  }
+}
+
+.widget-manufacture{
+  .carousel-control{
+    &:after{
+     @include rtl-border-left(9px solid transparent);
+    }
+    &.left{
+      &:after{
+        @include rtl-border-right(9px solid transparent);
+      }
+    }
+  }
+}
+
+
+
+// button
+  .product-block{
+    .left-block{
+         .btn{                
+            background:$theme-color-default;
+            border: 1px solid $theme-color-default;
+            
+        } 
+    }
+  }
+
+    .functional-buttons{
+
+        .btn{                
+            i{
+                color: $theme-color-default!important;
+                &:hover{
+                    color: $white!important;
+                }
+            }
+            &:hover{
+                background: $theme-color-default!important;
+                border: 1px solid $theme-color-default!important;
+                i{
+                    &:hover{
+                        color: $white;
+                    }
+                }
+            }
+        }  
+    }
+//button ajax
+.ajax_add_to_cart_button{
+    &:hover{
+        background: $button-addtocart-bg-hover;
+    }
+    
+} 

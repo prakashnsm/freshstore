@@ -1,0 +1,101 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.ac_results {
+  background: white;
+  border: 1px solid #dfe0e1;
+  width: 271px;
+  margin-top: -1px;
+}
+.ac_results li {
+  padding: 0 10px;
+  font-weight: normal;
+  color: #686666;
+  font-size: 13px;
+  line-height: 22px;
+}
+.ac_results li.ac_odd {
+  background: white;
+}
+
+#search_block_top {
+  position: relative;
+  top: 25px;
+  right: 10px;
+}
+.rtl #search_block_top {
+  left: 10px;
+  right: auto;
+}
+#search_block_top .fa-search {
+  padding-left: 14px;
+  width: 40px;
+  height: 32px;
+  color: white;
+}
+#search_block_top .fa-search:hover {
+  cursor: pointer;
+}
+
+form#searchbox {
+  z-index: 10;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  -webkit-transition: width 0.5s ease 0s;
+  transition: width 0.5s ease 0s;
+}
+form#searchbox label {
+  color: #232323;
+}
+form#searchbox .search_query {
+  background-color: white;
+  color: #222;
+  margin: 0;
+  padding: 6px 0;
+  outline: none;
+  text-indent: 10px;
+  width: 0;
+  border: none;
+  background: white;
+  -webkit-transition: width 0.5s ease 0s;
+  transition: width 0.5s ease 0s;
+  height: 32px;
+  position: absolute;
+  right: 30px;
+}
+.rtl form#searchbox .search_query {
+  left: 30px;
+  right: auto;
+}
+form#searchbox:hover .search_query {
+  width: 180px;
+  -webkit-transition: width 0.5s ease 0s;
+  transition: width 0.5s ease 0s;
+}
+form#searchbox .btn {
+  position: absolute;
+  right: 0;
+  border: none;
+  margin-left: 5px;
+  background: url(images/bkg-search.png) no-repeat 0 0 transparent;
+}
+.rtl form#searchbox .btn {
+  left: 0;
+  right: auto;
+}
+form#searchbox .btn:hover {
+  background-position: 0px -33px;
+}

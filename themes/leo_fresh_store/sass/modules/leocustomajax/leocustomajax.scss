@@ -1,0 +1,40 @@
+@import "compass";
+@import "theme_variables";
+
+/*******************************************************************/
+ .leo-more-cdown{
+ 	color: #FFF;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ 	font-size: 18px;
+ 	@include clearfix();
+ 	.title_deal{
+ 		background-color: $theme-color-default;
+		text-transform: uppercase;
+		color: #FFF;
+		padding: 0 10px;
+		display: inline-block;
+		vertical-align:middle;
+		height: 45px;
+		line-height: 44px;
+ 		@include rtl-margin-right(5px);
+ 		@include rtl-float-left();
+ 	}
+ 	.deal-clock{
+ 		display: inline-block;
+ 		height: 45px;
+ 		overflow: hidden;
+ 		@include rtl-float-right();
+ 		li{
+ 			background-color: #e06170;
+ 			@include rtl-margin-right(5px);
+ 			line-height: 20px;
+ 			min-width: 40px;
+ 			padding: 5px;
+ 			span{
+ 				font-size: 13px;
+ 				display: block;
+ 			}
+ 		}
+ 	}
+ }

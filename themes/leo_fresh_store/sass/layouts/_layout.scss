@@ -1,0 +1,180 @@
+/******************************************************
+ * $package Leo Theme Framework for Leo THeme 1.6.x
+ * $version 1.1
+ * $author http://www.leotheme.com
+ * $copyright   Copyright (C) Augus 2013 PavoThemes.com <$emai:leotheme$gmail.com>.All rights reserved.
+ * $license     GNU General Public License version 2
+ *******************************************************/
+ // layout.scss
+
+@import "vars/layout.vars";
+body{
+    &.layout-boxed-md{
+        background: $white;
+        #page{  
+            max-width: $container-desktop + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+            .container {
+                max-width: $container-desktop;
+            }
+        }  
+        
+    }
+    &.layout-boxed-lg{
+        background: $white;
+        #page{  
+            max-width: $container-lg + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+            .container {
+                max-width: $container-lg;
+            }
+        }
+    }
+} 
+
+.container{
+    position: relative;
+}
+.columns-container{
+    margin-top: 20px;
+}
+#page{
+    overflow: hidden;
+}
+.z-index{
+    z-index: 10;
+}
+/*
+* HEADER 
+*/
+
+#topbar  {
+    //min-height: $topbar-height;
+    font-size: $topbar-font-size;
+    background: $topbar-outside-bg;
+    border-bottom: 1px solid #343434;
+    padding-bottom: 10px;
+    .container {
+        width: 100%;
+        > .inner{
+            @include container-layout-variant($topbar-color, $topbar-bg); 
+            padding: 10px 0;
+        }
+    }
+    
+    .links{  
+        padding: 6px 0;      
+    } 
+    a{
+        color: $topbar-color;
+        &:hover{color: $link-hover-color;}
+    }
+      
+}
+
+ 
+#header-main{
+   .container > .inner{
+        @include container-layout-variant($headermain-color, $headermain-bg); 
+        a.btn{
+            color: $white;            
+            &:hover{color: $white;}
+        }
+   }
+    &.mini-navbar{ // float header
+        .container{
+            padding-top: 10px;
+            padding-bottom:  10px;
+       }
+    }
+    #header_content{
+      @include rtl-padding-left(0px);
+      .inner{
+        background:#2a2a29;
+      }
+    }
+}
+//slider
+#slideshow{
+    margin-top: 18px;
+}
+
+/* FOOTER */
+#footer{
+    @include clearfix();
+    background: $footer-outside-bg;
+    
+    .container{
+        position: static;
+        > .inner{
+            @include container-layout-variant($footer-color, $footer-bg);   
+        } 
+    } 
+    a{
+        color: $footer-color;
+        text-transform: uppercase;
+        font-size: 11px;
+        &:hover{
+            color: $link-hover-color;
+        }
+    }
+    .#{$block-heading-selector}{
+        color: $footer-heading-color;
+        font-weight: 800;
+        position: relative;
+        padding-top: 15px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        a{
+            color: $footer-heading-color;
+        }
+    }
+}
+.block{
+    overflow: visible;
+}
+.bg-left-footer{
+    background: #2a2a29;
+    position: relative;
+    margin-top: 20px;
+    &:before{
+        width: 25%;
+        padding-left: 10px;
+        padding-right:10px;
+        position: absolute;
+        height: 100%;
+        background-color: #383838;
+        content: "";
+        display: block!important;
+    }
+    .content-right-footer{
+        padding: 0px 20px 0px 20px;
+        &.banner-footer{
+            padding-top: 20px;
+        }
+    }
+}
+
+//banner- category
+#index{
+    .banner-category{
+        display: none;
+    }
+}
+.banner-category{
+    .top_banner{
+        border: 2px solid #222;
+    }
+}
+
+.banner-left{
+    .block_content{
+        padding: 0px!important;
+        background: none!important;
+        border: none!important;
+    }
+}

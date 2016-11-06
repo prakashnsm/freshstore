@@ -1,0 +1,106 @@
+@import "compass";
+@import "theme_variables";
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+@import "bootstrap/rtl/grid";
+// Utility classes
+@import "bootstrap/rtl/utilities";
+@import "bootstrap/rtl/responsive-utilities";
+
+/********************************************************
+			Right to Left Styles
+********************************************************/
+
+* {
+	direction: rtl !important;
+}
+#page {
+	text-align: right !important;
+}
+
+// paneltool
+
+.panelbutton {
+    -webkit-box-shadow: -3px 1px 2px #888888;
+    box-shadow: -3px 1px 2px #888888;
+ }
+.fancybox-margin {margin-right: 0px!important;}
+
+.editortool .label-customize {
+    background-image: url('#{$image-theme-base-path}label_customize-1.png');
+}
+.editortool .label-customize:hover {
+    background-position: 0 -111px;
+}
+.block .list-block li {
+	a {
+		&:before {
+			content: "\f104";
+		}
+	}
+}
+.accessories-block ul li{float: right !important;}
+.rtl {
+	.carousel-control{
+		&.right{
+			left: 40px;
+			border-left: none;
+		}
+		&.left{
+			left: 0px;
+			border-right:$main-border;
+		}
+	}
+}
+
+.widget-manufacture{
+  .carousel-control{;
+    &.left,&.right{
+      border: none;
+    }
+    &.right{
+    	left: 0px;
+    	right: auto;
+    }
+  }
+}
+
+
+//cart
+ #cart .heading:before{
+ 	right: -19px;
+ }
+ #cart .heading{
+ 	margin-right: 20px;
+ 	margin-left: -26px;
+ }
+ .rtl #cart .heading:after{
+ 	left: -25px;
+ }
+ .carousel-control.right{
+ 	left: 40px;
+ }
+ //heading
+ #header-main #header_content .inner{
+ 	margin-left:9px;
+ }
+
+ //
+.rtl div.verticalmenu .navbar-nav > li .caret{
+	left: 18px;
+}
+figure.effect-milo img{
+	position: relative;
+	right: -7px;
+}
+/*------------------------------------------------header-stack-right----------------------------------------------*/
+.header-stack-right{
+	.blockcart_top{
+		float:right!important;
+	}
+	.popup-over{
+		float: right!important;
+	}
+}

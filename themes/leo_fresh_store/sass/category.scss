@@ -1,0 +1,28 @@
+@import "compass";
+@import "theme_variables";
+// cateogry 
+#subcategories{
+  border: $main-border;
+  margin-bottom: $grid-gutter-width;
+  padding-bottom: 15px;
+} 
+.subcategories{
+	margin-top: 15px;
+	.content{padding: 10px; color: #515151;@include box-shadow(0px 0px 0px 1px #ddd inset);
+		&:hover{background: $theme-color-default; color: $white;}
+		h5{
+			margin-top: 0;
+			 a{
+			 	font-weight: 800;
+			 	color: #61615b;
+			 	&:hover{
+			 		color: $white;
+			 	}
+			 }
+		}
+	}
+	.cat-desc{
+	overflow: hidden;
+	height: 40px; 
+	}
+}

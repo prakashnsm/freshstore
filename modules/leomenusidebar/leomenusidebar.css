@@ -1,0 +1,292 @@
+/* RIGHT TO LEFT */
+#megamenu-content {
+  width: 25%;
+  float: left !important;
+}
+
+.leo-verticalmenu {
+  position: relative;
+  z-index: 99;
+}
+
+#slideshow #leo-verticalmenu .title_block {
+  margin-bottom: 0;
+}
+#slideshow #leo-verticalmenu .title_block:after {
+  display: none;
+}
+
+#leo-verticalmenu .navbar-nav {
+  float: none;
+}
+#leo-verticalmenu .navbar-default {
+  border: none;
+  z-index: 999;
+  background: none;
+  margin-bottom: 0;
+}
+#leo-verticalmenu .navbar-default .navbar-collapse {
+  padding: 0;
+}
+#leo-verticalmenu .navbar-default .navbar-nav > li > a:hover, #leo-verticalmenu .navbar-default .navbar-nav > li > a:focus {
+  margin-top: 0;
+}
+#leo-verticalmenu .dropdown .caret {
+  display: none;
+}
+#leo-verticalmenu .dropdown .dropdown-toggle .menu-title:after {
+  font-family: "FontAwesome";
+  font-size: 13px;
+  color: #aab2bd;
+  display: inline-block;
+  content: "\f0da";
+  padding: 0 15px 0 0;
+  float: right;
+  font-size: 12px;
+}
+.rtl #leo-verticalmenu .dropdown .dropdown-toggle .menu-title:after {
+  padding: 0 0 0 15px;
+}
+.rtl #leo-verticalmenu .dropdown .dropdown-toggle .menu-title:after {
+  float: left;
+}
+#leo-verticalmenu .disable-menu .dropdown-menu,
+#leo-verticalmenu .disable-menu .caret {
+  display: none !important;
+}
+#leo-verticalmenu.leo-menubackend .dropdown-menu {
+  left: 100%;
+  top: 0;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.rtl #leo-verticalmenu.leo-menubackend .dropdown-menu {
+  right: 100%;
+  left: auto;
+}
+#leo-verticalmenu .megamenu li {
+  width: 100%;
+  border-bottom: 1px solid #EBEEF2;
+  z-index: 1;
+  position: static;
+}
+#leo-verticalmenu .megamenu li a {
+  border: none;
+  padding: 10px 0 10px 14px;
+  color: #353d41;
+  font-weight: 600;
+}
+.rtl #leo-verticalmenu .megamenu li a {
+  padding: 10px 14px 10px 0;
+}
+#leo-verticalmenu .megamenu li a:before {
+  font-family: "FontAwesome";
+  font-size: 13px;
+  color: #aab2bd;
+  display: inline-block;
+  content: "\f013";
+  padding: 0 5px 0 5px;
+  font-weight: normal;
+}
+.rtl #leo-verticalmenu .megamenu li a:before {
+  padding: 0 5px 0 5px;
+}
+#leo-verticalmenu .megamenu li a:hover {
+  color: #ff6346;
+  background: none;
+}
+#leo-verticalmenu .megamenu li a:hover:before {
+  color: #ff6346;
+}
+#leo-verticalmenu .megamenu li.open a {
+  background: none;
+}
+#leo-verticalmenu .megamenu li:last-child {
+  border-bottom: none;
+}
+#leo-verticalmenu .megamenu li:hover > .dropdown-menu {
+  display: block;
+  top: 43px;
+}
+#leo-verticalmenu .megamenu li.dropdown .dropdown-menu li {
+  border: none;
+}
+#leo-verticalmenu .megamenu li.dropdown .dropdown-menu li a {
+  padding: 5px 0 5px 15px;
+}
+#leo-verticalmenu .megamenu li.dropdown .dropdown-menu li a:before {
+  display: none;
+}
+#leo-verticalmenu .megamenu li.dropdown:hover .dropdown-menu {
+  left: 100%;
+}
+#leo-verticalmenu .megamenu li.dropdown:hover .dropdown-menu li:hover .dropdown-menu {
+  left: 95%;
+  top: -8px;
+}
+.rtl #leo-verticalmenu .megamenu li.dropdown:hover .dropdown-menu li:hover .dropdown-menu {
+  right: 95%;
+  left: auto;
+}
+#leo-verticalmenu .megamenu li.dropdown.active a {
+  color: #ff6346;
+  background: none;
+}
+#leo-verticalmenu .megamenu li.dropdown.active a:before {
+  color: #ff6346;
+}
+#leo-verticalmenu .megamenu li.dropdown.active li a {
+  color: #353d41;
+}
+#leo-verticalmenu .megamenu li.dropdown.active li a:hover {
+  color: #ff6346;
+}
+#leo-verticalmenu .megamenu.left li.parent:hover .dropdown-menu.cols1 {
+  left: -215px;
+}
+#leo-verticalmenu .megamenu.left li.parent:hover .dropdown-menu.cols2 {
+  left: -420px;
+}
+#leo-verticalmenu .megamenu.left li.parent:hover .dropdown-menu.cols3 {
+  left: -620px;
+}
+#leo-verticalmenu .megamenu.left li.parent:hover .dropdown-menu.cols4 {
+  left: -820px;
+}
+#leo-verticalmenu .dropdown-menu {
+  min-height: 100%;
+  padding: 5px 10px;
+}
+#leo-verticalmenu .dropdown-menu.cols1 {
+  width: 215px;
+}
+#leo-verticalmenu .dropdown-menu.cols2 {
+  width: 420px;
+}
+#leo-verticalmenu .dropdown-menu.cols3 {
+  width: 620px;
+}
+#leo-verticalmenu .dropdown-menu.cols4 {
+  width: 820px;
+}
+#leo-verticalmenu .dropdown-menu .widget-heading {
+  color: #384044;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px 0 10px 14px;
+  margin: 0;
+  line-height: 20px;
+  font-family: "museo300", sans-serif;
+  font-weight: 500;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+#leo-verticalmenu .dropdown-menu .leo-widget a:before {
+  content: "";
+}
+#leo-verticalmenu .dropdown-menu ul.links li {
+  border: none;
+  margin: 0;
+}
+#leo-verticalmenu .dropdown-menu ul.links li a {
+  padding: 5px 0 5px 14px;
+}
+#leo-verticalmenu .dropdown-menu .widget-products .product-container {
+  height: auto;
+  padding: 5px;
+  width: 33.3333%;
+  margin: 0;
+}
+#leo-verticalmenu .dropdown-menu .widget-products .image {
+  border: 1px solid #ebeef2;
+  display: inline-block;
+}
+#leo-verticalmenu .dropdown-menu .widget-products .image a {
+  display: inline-block;
+  padding: 0;
+}
+#leo-verticalmenu .dropdown-menu .widget-products .image a:before {
+  padding: 0;
+}
+#leo-verticalmenu .dropdown-menu .widget-products .product-name {
+  text-align: center;
+  padding: 0;
+}
+#leo-verticalmenu .dropdown-menu .widget-products .nb-comments {
+  display: none;
+}
+#leo-verticalmenu .dropdown-menu .widget-products .comments_note {
+  display: inline-block;
+  font-size: 13px;
+}
+#leo-verticalmenu .dropdown-menu .widget-products .price.product-price {
+  font-size: 15px;
+}
+#leo-verticalmenu .dropdown-menu .widget-products .price-percent-reduction {
+  display: none;
+}
+#leo-verticalmenu .dropdown-menu .html-aboutus .widget-html {
+  padding: 10px;
+}
+#leo-verticalmenu .dropdown-menu .html-aboutus .widget-html .widget-inner {
+  border-top: 1px dashed #ebeef2;
+  padding-top: 10px;
+}
+
+@media (max-width: 990px) {
+  #leo-verticalmenu .megamenu li a {
+    width: 96%;
+  }
+  #leo-verticalmenu .megamenu.navbar-nav {
+    margin: 0;
+    float: none;
+  }
+  #leo-verticalmenu .megamenu .dropdown:hover > .dropdown-menu {
+    display: none;
+  }
+  #leo-verticalmenu .megamenu .dropdown.open > .dropdown-menu {
+    display: block;
+    left: 20px;
+    width: 100% !important;
+    overflow-x: hidden;
+  }
+  .rtl #leo-verticalmenu .megamenu .dropdown.open > .dropdown-menu {
+    right: 20px;
+    left: auto;
+  }
+  #leo-verticalmenu .megamenu .dropdown .caret {
+    display: block;
+    float: right;
+    position: relative;
+    right: 10px;
+    top: -20px;
+    z-index: 999;
+    cursor: pointer;
+  }
+  .rtl #leo-verticalmenu .megamenu .dropdown .caret {
+    float: left;
+  }
+  .rtl #leo-verticalmenu .megamenu .dropdown .caret {
+    left: 10px;
+    right: auto;
+  }
+  #leo-verticalmenu .megamenu .dropdown .dropdown-toggle .menu-title:after {
+    display: none;
+  }
+  #leo-verticalmenu .megamenu .dropdown-submenu:hover .dropdown-menu {
+    display: none;
+  }
+  #leo-verticalmenu .megamenu .dropdown-submenu.open .dropdown-menu {
+    display: block;
+  }
+  #leo-verticalmenu .megamenu .dropdown-menu .leo-widget a:before {
+    display: none;
+  }
+  #leo-verticalmenu .megamenu .dropdown-menu .widget-heading:after {
+    display: none;
+  }
+}

@@ -1,0 +1,16 @@
+@import "compass";
+@import "theme_variables";
+#header_user_info{
+	@include rtl-padding-left(10px);
+	li{
+		&.login{
+			@include rtl-padding(5px, 10px, 0, 0);
+			a{
+		       	color: $white;
+			}
+		}
+		&.header_user_info{
+			@include rtl-padding(5px, 10px, 0, 0);
+		}
+	}
+}

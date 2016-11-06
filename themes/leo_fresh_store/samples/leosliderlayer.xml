@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataSample>                                                   
+    <fields objectName="LeoSliderGroup" objectFile="grouplayer.php" searchField="id_shop">
+        <field>
+            <id>11</id>
+            <title><![CDATA[Sample 2]]></title>
+            <active>1</active>
+            <hook><![CDATA[displayTopColumn]]></hook>
+            <params><![CDATA[eyJhdXRvX3BsYXkiOiIxIiwiZGVsYXkiOiI5MDAwIiwiZnVsbHdpZHRoIjoiZnVsbHdpZHRoIiwic3RhcnRfd2l0aF9zbGlkZSI6IjAiLCJtZF93aWR0aCI6IjEyIiwic21fd2lkdGgiOiIxMiIsInhzX3dpZHRoIjoiMTIiLCJ0b3VjaF9tb2JpbGUiOiIxIiwic3RvcF9vbl9ob3ZlciI6IjEiLCJzaHVmZmxlX21vZGUiOiIxIiwic2hhZG93X3R5cGUiOiIwIiwic2hvd190aW1lX2xpbmUiOiIxIiwidGltZV9saW5lX3Bvc2l0aW9uIjoidG9wIiwibWFyZ2luIjoiMCAwIDIwcHggMHB4IiwicGFkZGluZyI6IjAiLCJiYWNrZ3JvdW5kX2NvbG9yIjoiI2Q5ZDlkOSIsImJhY2tncm91bmRfaW1hZ2UiOiIwIiwiYmFja2dyb3VuZF91cmwiOiIiLCJncm91cF9jbGFzcyI6IiIsIm5hdmlnYXRvcl90eXBlIjoibm9uZSIsIm5hdmlnYXRvcl9hcnJvd3MiOiJ2ZXJ0aWNhbGNlbnRlcmVkIiwibmF2aWdhdGlvbl9zdHlsZSI6InJvdW5kIiwic2hvd19uYXZpZ2F0b3IiOiIxIiwiaGlkZV9uYXZpZ2F0b3JfYWZ0ZXIiOiIyMDAiLCJpbWFnZV9jcm9wcGluZyI6IjAiLCJ3aWR0aCI6Ijk4MCIsImhlaWdodCI6IjU5MCIsInRodW1ibmFpbF93aWR0aCI6IjEwMCIsInRodW1ibmFpbF9oZWlnaHQiOiI1MCIsInRodW1ibmFpbF9hbW91bnQiOiI1In0=]]></params>
+            <fields objectName="SliderLayer" objectFile="leosliderlayer.php" searchField="id_group">
+        <field>
+            <id>31</id>
+            <active>1</active>
+            <id_group>11</id_group>
+            <position>0</position>
+            <title>
+            <en><![CDATA[Slide1]]></en>
+            <fr><![CDATA[Slide1]]></fr>
+            <de><![CDATA[Slide1]]></de>
+            <br><![CDATA[Slide1]]></br>
+            <it><![CDATA[Slide1]]></it>
+            <es><![CDATA[Slide1]]></es>
+            <ru><![CDATA[Slide1]]></ru>
+            <pl><![CDATA[Slide1]]></pl>
+            <ar><![CDATA[Slide1]]></ar>
+            </title>
+            <link>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            </link>
+            <image>
+            <en><![CDATA[slider1.jpg]]></en>
+            <fr><![CDATA[slider1.jpg]]></fr>
+            <de><![CDATA[slider1.jpg]]></de>
+            <br><![CDATA[slider1.jpg]]></br>
+            <it><![CDATA[slider1.jpg]]></it>
+            <es><![CDATA[slider1.jpg]]></es>
+            <ru><![CDATA[slider1.jpg]]></ru>
+            <pl><![CDATA[slider1.jpg]]></pl>
+            <ar><![CDATA[slider1.jpg]]></ar>
+            </image>
+            <thumbnail>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            </thumbnail>
+            <params><![CDATA[eyJ0cmFuc2l0aW9uIjoicmFuZG9tIiwic2xvdCI6IjciLCJyb3RhdGlvbiI6IiIsImR1cmF0aW9uIjoiNDAwIiwiZGVsYXkiOiIwIiwiZ3JvdXBfaWQiOiIxNCIsImVuYWJsZV9saW5rIjoiMSIsInRhcmdldCI6InNhbWUiLCJzdGFydF9kYXRlX3RpbWUiOiIiLCJlbmRfZGF0ZV90aW1lIjoiIn0=]]></params>
+            <video>
+            <en><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></en>
+            <fr><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></fr>
+            <de><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></de>
+            <br><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></br>
+            <it><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></it>
+            <es><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></es>
+            <ru><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></ru>
+            <pl><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></pl>
+            <ar><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></ar>
+            </video>
+            <layersparams>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[bnVsbA==]]></fr>
+            <de><![CDATA[bnVsbA==]]></de>
+            <br><![CDATA[bnVsbA==]]></br>
+            <it><![CDATA[bnVsbA==]]></it>
+            <es><![CDATA[bnVsbA==]]></es>
+            <ru><![CDATA[bnVsbA==]]></ru>
+            <pl><![CDATA[bnVsbA==]]></pl>
+            <ar><![CDATA[bnVsbA==]]></ar>
+            </layersparams>
+        </field>
+        <field>
+            <id>32</id>
+            <active>1</active>
+            <id_group>11</id_group>
+            <position>0</position>
+            <title>
+            <en><![CDATA[Duplicate of Slide1]]></en>
+            <fr><![CDATA[Duplicate of Slide1]]></fr>
+            <de><![CDATA[Duplicate of Slide1]]></de>
+            <br><![CDATA[Duplicate of Slide1]]></br>
+            <it><![CDATA[Duplicate of Slide1]]></it>
+            <es><![CDATA[Duplicate of Slide1]]></es>
+            <ru><![CDATA[Duplicate of Slide1]]></ru>
+            <pl><![CDATA[Duplicate of Slide1]]></pl>
+            <ar><![CDATA[Duplicate of Slide1]]></ar>
+            </title>
+            <link>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            </link>
+            <image>
+            <en><![CDATA[slider2.jpg]]></en>
+            <fr><![CDATA[slider2.jpg]]></fr>
+            <de><![CDATA[slider2.jpg]]></de>
+            <br><![CDATA[slider2.jpg]]></br>
+            <it><![CDATA[slider2.jpg]]></it>
+            <es><![CDATA[slider2.jpg]]></es>
+            <ru><![CDATA[slider2.jpg]]></ru>
+            <pl><![CDATA[slider2.jpg]]></pl>
+            <ar><![CDATA[slider2.jpg]]></ar>
+            </image>
+            <thumbnail>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            </thumbnail>
+            <params><![CDATA[eyJ0cmFuc2l0aW9uIjoicmFuZG9tIiwic2xvdCI6IjciLCJyb3RhdGlvbiI6IiIsImR1cmF0aW9uIjoiNDAwIiwiZGVsYXkiOiIwIiwiZ3JvdXBfaWQiOiIxNCIsImVuYWJsZV9saW5rIjoiMSIsInRhcmdldCI6InNhbWUiLCJzdGFydF9kYXRlX3RpbWUiOiIiLCJlbmRfZGF0ZV90aW1lIjoiIn0=]]></params>
+            <video>
+            <en><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></en>
+            <fr><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></fr>
+            <de><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></de>
+            <br><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></br>
+            <it><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></it>
+            <es><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></es>
+            <ru><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></ru>
+            <pl><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></pl>
+            <ar><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></ar>
+            </video>
+            <layersparams>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[bnVsbA==]]></fr>
+            <de><![CDATA[bnVsbA==]]></de>
+            <br><![CDATA[bnVsbA==]]></br>
+            <it><![CDATA[bnVsbA==]]></it>
+            <es><![CDATA[bnVsbA==]]></es>
+            <ru><![CDATA[bnVsbA==]]></ru>
+            <pl><![CDATA[bnVsbA==]]></pl>
+            <ar><![CDATA[bnVsbA==]]></ar>
+            </layersparams>
+        </field>
+        <field>
+            <id>33</id>
+            <active>1</active>
+            <id_group>11</id_group>
+            <position>0</position>
+            <title>
+            <en><![CDATA[Duplicate of Duplicate of Slide1]]></en>
+            <fr><![CDATA[Duplicate of Duplicate of Slide1]]></fr>
+            <de><![CDATA[Duplicate of Duplicate of Slide1]]></de>
+            <br><![CDATA[Duplicate of Duplicate of Slide1]]></br>
+            <it><![CDATA[Duplicate of Duplicate of Slide1]]></it>
+            <es><![CDATA[Duplicate of Duplicate of Slide1]]></es>
+            <ru><![CDATA[Duplicate of Duplicate of Slide1]]></ru>
+            <pl><![CDATA[Duplicate of Duplicate of Slide1]]></pl>
+            <ar><![CDATA[Duplicate of Duplicate of Slide1]]></ar>
+            </title>
+            <link>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            </link>
+            <image>
+            <en><![CDATA[slider3.jpg]]></en>
+            <fr><![CDATA[slider3.jpg]]></fr>
+            <de><![CDATA[slider3.jpg]]></de>
+            <br><![CDATA[slider3.jpg]]></br>
+            <it><![CDATA[slider3.jpg]]></it>
+            <es><![CDATA[slider3.jpg]]></es>
+            <ru><![CDATA[slider3.jpg]]></ru>
+            <pl><![CDATA[slider3.jpg]]></pl>
+            <ar><![CDATA[slider3.jpg]]></ar>
+            </image>
+            <thumbnail>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            </thumbnail>
+            <params><![CDATA[eyJ0cmFuc2l0aW9uIjoicmFuZG9tIiwic2xvdCI6IjciLCJyb3RhdGlvbiI6IiIsImR1cmF0aW9uIjoiNDAwIiwiZGVsYXkiOiIwIiwiZ3JvdXBfaWQiOiIxNCIsImVuYWJsZV9saW5rIjoiMSIsInRhcmdldCI6InNhbWUiLCJzdGFydF9kYXRlX3RpbWUiOiIiLCJlbmRfZGF0ZV90aW1lIjoiIn0=]]></params>
+            <video>
+            <en><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></en>
+            <fr><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></fr>
+            <de><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></de>
+            <br><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></br>
+            <it><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></it>
+            <es><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></es>
+            <ru><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></ru>
+            <pl><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></pl>
+            <ar><![CDATA[eyJ1c2V2aWRlbyI6IjAiLCJ2aWRlb2lkIjoiIiwidmlkZW9hdXRvIjoiMCIsImJhY2tncm91bmRfY29sb3IiOiIifQ==]]></ar>
+            </video>
+            <layersparams>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[bnVsbA==]]></fr>
+            <de><![CDATA[bnVsbA==]]></de>
+            <br><![CDATA[bnVsbA==]]></br>
+            <it><![CDATA[bnVsbA==]]></it>
+            <es><![CDATA[bnVsbA==]]></es>
+            <ru><![CDATA[bnVsbA==]]></ru>
+            <pl><![CDATA[bnVsbA==]]></pl>
+            <ar><![CDATA[bnVsbA==]]></ar>
+            </layersparams>
+        </field>
+            </fields>
+        </field>
+    </fields>
+    <sql><![CDATA[CREATE TABLE IF NOT EXISTS `PREFIX_leosliderlayer_groups` (
+  `id_leosliderlayer_groups` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NOT NULL,
+  `id_shop` int(10) unsigned NOT NULL,
+  `hook` varchar(64) NOT NULL,
+  `active` tinyint(1) unsigned NOT NULL DEFAULT '1',
+  `params` text NOT NULL,
+  PRIMARY KEY (`id_leosliderlayer_groups`,`id_shop`)
+) ENGINE=ENGINE_TYPE AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leosliderlayer_slides` (
+  `id_leosliderlayer_slides` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_group` int(11) NOT NULL,
+  `position` int(10) unsigned NOT NULL DEFAULT '0',
+  `active` tinyint(1) unsigned NOT NULL DEFAULT '1',
+  `parent_id` int(11) NOT NULL,
+  `params` text NOT NULL,
+  PRIMARY KEY (`id_leosliderlayer_slides`)
+) ENGINE=ENGINE_TYPE AUTO_INCREMENT=34 DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leosliderlayer_slides_lang` (
+  `id_leosliderlayer_slides` int(10) unsigned NOT NULL,
+  `id_lang` int(10) unsigned NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `link` varchar(255) NOT NULL,
+  `image` varchar(255) NOT NULL,
+  `thumbnail` varchar(255) NOT NULL,
+  `video` text,
+  `layersparams` text,
+  PRIMARY KEY (`id_leosliderlayer_slides`,`id_lang`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8;
+
+]]></sql>
+    <hooks>
+        <hook module="leosliderlayer" hook="displayRightColumn" position="5" exceptions=""/>
+        <hook module="leosliderlayer" hook="displayLeftColumn" position="3" exceptions=""/>
+        <hook module="leosliderlayer" hook="displayHome" position="2" exceptions=""/>
+        <hook module="leosliderlayer" hook="displayHeader" position="31" exceptions=""/>
+        <hook module="leosliderlayer" hook="displayTop" position="5" exceptions=""/>
+        <hook module="leosliderlayer" hook="displayRightColumnProduct" position="4" exceptions=""/>
+        <hook module="leosliderlayer" hook="displayFooterProduct" position="4" exceptions=""/>
+        <hook module="leosliderlayer" hook="displayFooter" position="4" exceptions=""/>
+        <hook module="leosliderlayer" hook="actionShopDataDuplication" position="3" exceptions=""/>
+        <hook module="leosliderlayer" hook="displaySlideshow" position="2" exceptions=""/>
+        <hook module="leosliderlayer" hook="topNavigation" position="3" exceptions=""/>
+        <hook module="leosliderlayer" hook="displayBottom" position="2" exceptions=""/>
+        <hook module="leosliderlayer" hook="displayContentBottom" position="2" exceptions=""/>
+        <hook module="leosliderlayer" hook="displayFootNav" position="2" exceptions=""/>
+        <hook module="leosliderlayer" hook="displayFooterTop" position="2" exceptions=""/>
+        <hook module="leosliderlayer" hook="displayFooterBottom" position="2" exceptions=""/>
+    </hooks>
+</dataSample>

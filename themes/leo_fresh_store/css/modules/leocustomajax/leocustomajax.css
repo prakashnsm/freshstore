@@ -1,0 +1,72 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/*******************************************************************/
+.leo-more-cdown {
+  color: #FFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.leo-more-cdown:before, .leo-more-cdown:after {
+  content: " ";
+  display: table;
+}
+.leo-more-cdown:after {
+  clear: both;
+}
+.leo-more-cdown .title_deal {
+  background-color: #8cc152;
+  text-transform: uppercase;
+  color: #FFF;
+  padding: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 45px;
+  line-height: 44px;
+  margin-right: 5px;
+  float: left;
+}
+.rtl .leo-more-cdown .title_deal {
+  margin-left: 5px;
+  margin-right: inherit;
+}
+.rtl .leo-more-cdown .title_deal {
+  float: right;
+}
+.leo-more-cdown .deal-clock {
+  display: inline-block;
+  height: 45px;
+  overflow: hidden;
+  float: right;
+}
+.rtl .leo-more-cdown .deal-clock {
+  float: left;
+}
+.leo-more-cdown .deal-clock li {
+  background-color: #e06170;
+  margin-right: 5px;
+  line-height: 20px;
+  min-width: 40px;
+  padding: 5px;
+}
+.rtl .leo-more-cdown .deal-clock li {
+  margin-left: 5px;
+  margin-right: inherit;
+}
+.leo-more-cdown .deal-clock li span {
+  font-size: 13px;
+  display: block;
+}

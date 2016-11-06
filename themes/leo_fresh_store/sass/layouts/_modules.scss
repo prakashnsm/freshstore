@@ -1,0 +1,199 @@
+// modules.scss
+
+@import "vars/modules.vars";
+// top bar module dropdown
+.popup-over{
+    position: relative;
+    background: #363636;
+    @include border-radius(3px);
+    @include rtl-margin-right(7px);
+    .popup-title{
+        @include rtl-padding(5px,20px,5px,10px);
+        &:before{
+            content: "\f0d7";
+            position: absolute;
+            top: 6px;
+            @include rtl-right(6px);
+            font-family: $font-icon;
+        }
+        .fa-cog{
+            @include rtl-margin-right(5px);
+        }
+    }
+    .popup-content{
+        padding: 10px;
+        visibility: hidden;
+        position: absolute;
+        top: 28px;
+        @include rtl-left(0);
+        background: $white;
+        border: $main-border;
+        min-width: 130px;
+        z-index: 99;
+        li{
+            padding: 6px 0;
+        }
+        a{
+            color: $text-color;
+            &:hover{
+                color: $link-hover-color;
+            }
+        }
+    }
+    &:hover{
+        cursor: pointer; 
+        .popup-content{
+            visibility: visible;
+        }
+    }
+}  
+
+/* mini basket */
+#cart{        
+    position: relative; 
+    h4{ 
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: $font-size-base - 2;
+        padding: 0;
+        margin: 8px 0 0;
+        font-family: $font-family-tertiary;
+    }
+    .content {
+        clear: both;
+        display: block;
+        position: absolute;
+        top: 100%;
+        right: $cart-align-right;
+        left: auto;
+        padding: 15px;
+        min-height: 100px;      
+        height: 100px;
+        height: auto !important;      
+        background: $white;
+        border: $main-border;
+        z-index: 99999;
+        min-width: $cart-content-width;
+        @include rounded-corners(0px); 
+        @include box-shadow(none); 
+        display: none;
+
+    }  
+    &.active{
+        .content{
+            display: block;
+        }
+    }      
+    .heading {     
+        @include clearfix();  
+        background: $theme-color-secondary;
+        padding: 8px 10px;
+        margin-top: -3px;
+        margin-left: 20px;
+        margin-right:-18px;
+        &:before{
+             border-top: 18px solid transparent;
+            @include rtl-border-right(18px solid $theme-color-secondary);
+            border-bottom: 19px solid transparent;
+            position: absolute;
+            content:"";
+            @include rtl-left(2px);
+            top:-4px;
+        }
+        &:after{
+            position: absolute;
+            content:"";
+            width: 0;
+            height: 0;
+            border-top: 10px solid #232323;
+            @include rtl-border-right(10px solid transparent);
+            @include rtl-right(-18px);
+            bottom:-10px
+        }
+       
+        a{    
+             
+            span{
+                font-size: $font-size-base;
+                color: $cart-text-color;
+            }           
+        }
+
+    }
+    .title-cart{
+        display: block;
+    }
+    .cart-quantity{
+        position: absolute;
+        top: -8px; 
+        color: $white;
+        left: -8px;
+        padding: 0 7px;
+        @include rounded-corners (100%);
+        background: rgb(250, 139, 139);
+        font-weight: bold;
+    }
+    .checkout {
+        text-align: right;
+        clear: both;
+    }
+    .empty {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .mini-cart-total {
+        text-align: right;
+        td {
+            color: #000;
+            padding: 4px;
+        }
+        table {
+            border-collapse: collapse;
+            @include inline-block();
+            margin-bottom: 5px;
+        }
+    }
+    .mini-cart-info {
+        .quantity {
+            text-align: right;
+        }
+        .name {
+            small {
+                color: #666;
+            }
+            font-size: $cart-product-font-size;
+            font-weight: bold;
+        }
+        td {
+            color: #000;
+            vertical-align: top;
+            padding: 6px; 
+            border-bottom: $main-border;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .image {
+            width: 1px;
+            img {            
+                text-align: left;
+            }
+        }
+        .remove {
+            text-align: right;
+            img {
+                cursor: pointer;
+            }
+        }
+        td.total {
+            text-align: right;
+        }
+    }
+
+}
+.col-block-cart{
+    position: static;
+}

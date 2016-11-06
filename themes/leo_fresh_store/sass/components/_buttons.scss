@@ -1,0 +1,8 @@
+
+//@mixin button-variant-outline($color, $background, $border, $colorhover, $bghover, $borderhover ) {
+.btn-outline-inverse{
+  @include button-variant-outline($white, $theme-color-default, $theme-color-default, $text-color, $nocolor , $border-color );
+} 
+.btn-outline{
+  @include button-variant-outline($text-color, $nocolor , $border-color , $white, $theme-color-default, $theme-color-default );
+}
