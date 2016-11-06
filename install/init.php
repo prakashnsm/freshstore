@@ -1,6 +1,6 @@
 <?php
 /*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
@@ -67,6 +67,10 @@ require_once(_PS_INSTALL_PATH_.'classes/session.php');
 require_once(_PS_INSTALL_PATH_.'classes/sqlLoader.php');
 require_once(_PS_INSTALL_PATH_.'classes/xmlLoader.php');
 require_once(_PS_INSTALL_PATH_.'classes/simplexml.php');
+
+/*HEROKU DEPLOYMENT*/
+require_once(_PS_INSTALL_PATH_.'/config/DB.inc.php');
+
 
 @set_time_limit(0);
 if (!@ini_get('date.timezone'))
