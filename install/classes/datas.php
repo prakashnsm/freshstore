@@ -26,6 +26,7 @@
 
 class Datas
 {
+	private static $dbURL = parse_url(getenv("CLEARDB_DATABASE_URL"));
 	private static $instance = null;
 	protected static $available_args = array(
 		'step' => array(
@@ -50,25 +51,25 @@ class Datas
 		),
 		'database_server' => array(
 			'name' => 'db_server',
-			'default' => 'localhost',
+			'default' => $dbURL['host'] || 'localhost',
 			'validate' => 'isGenericName',
 			'alias' => 'h',
 		),
 		'database_login' => array(
 			'name' => 'db_user',
 			'alias' => 'u',
-			'default' => 'root',
+			'default' => $dbURL['user'] || 'root',
 			'validate' => 'isGenericName',
 		),
 		'database_password' => array(
 			'name' => 'db_password',
 			'alias' => 'p',
-			'default' => '',
+			'default' => $dbURL['pass'] || '',
 		),
 		'database_name' => array(
 			'name' => 'db_name',
 			'alias' => 'd',
-			'default' => 'prestashop',
+			'default' => substr($dbURL["path"], 1) || 'freshstore',
 			'validate' => 'isGenericName',
 		),
 		'database_clear' => array(

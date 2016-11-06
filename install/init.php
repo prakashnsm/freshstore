@@ -68,9 +68,6 @@ require_once(_PS_INSTALL_PATH_.'classes/sqlLoader.php');
 require_once(_PS_INSTALL_PATH_.'classes/xmlLoader.php');
 require_once(_PS_INSTALL_PATH_.'classes/simplexml.php');
 
-/*HEROKU DEPLOYMENT*/
-require_once(_PS_INSTALL_PATH_.'/config/DB.inc.php');
-
 
 @set_time_limit(0);
 if (!@ini_get('date.timezone'))
